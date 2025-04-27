@@ -1,0 +1,108 @@
+ .body {
+     margin: 0;
+     font-family: 'Inter', sans-serif;
+     background-color: #fff;
+ }
+
+ .header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+     background-color: #fff8e1;
+ }
+
+ .logo {
+     font-size: 24px;
+     font-weight: bold;
+     color: #388e3c;
+ }
+
+ .nav {
+     display: flex;
+     gap: 20px;
+ }
+
+  .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 40px;
+      background: linear-gradient(90deg, #fffde7 60%, #fff3e0 100%);
+  }
+
+  .hero-text {
+      max-width: 500px;
+  }
+
+  .hero-text h1 {
+      font-size: 36px;
+  }
+
+  .highlight {
+      color: #2e7d32;
+  }
+
+  .cta-buttons button {
+      padding: 10px 20px;
+      margin-right: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+  }
+
+  .start {
+      background-color: #66bb6a;
+      color: #fff;
+  }
+
+  .join {
+      background-color: #212121;
+      color: #fff;
+  }
+
+  .info-cards {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px 40px;
+      background-color: #f1f8e9;
+      text-align: center;
+  }
+
+  .info-cards div {
+      flex: 1;
+  }
+
+  .category-section {
+      padding: 40px;
+      background-color: #fff;
+  }
+
+  .category-section h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+  }
+
+  .categories {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+  }
+
+  .category {
+      text-align: center;
+      width: 120px;
+  }
+
+  .category img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+  }
+
+  .category span {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+  }
