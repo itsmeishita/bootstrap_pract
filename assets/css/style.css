@@ -52,21 +52,23 @@
       cursor: pointer;
   }
 
-  .start {
+  .start:hover {
       background-color: #66bb6a;
       color: #fff;
+      transform: scale(1.05);
   }
 
-  .join {
-      background-color: #212121;
+  .join:hover {
+      background-color: #2b2828;
       color: #fff;
+      transform: scale(1.05);
   }
 
   .info-cards {
       display: flex;
       justify-content: space-around;
       padding: 20px 40px;
-      background-color: #f1f8e9;
+      background-color: #80ce28;
       text-align: center;
   }
 
@@ -76,7 +78,7 @@
 
   .category-section {
       padding: 40px;
-      background-color: #fff;
+      background-color: #ece3e3;
   }
 
   .category-section h2 {
@@ -109,6 +111,7 @@
   .image{
     width:200px;
     height: 200px;
+    padding: 5px;
   }
   .image img{
     width: 100%;
@@ -118,4 +121,55 @@
     font-size: 20px;
     color:green;
   }
+ .icon-wrapper {
+    background-color: #f0f0f0;
+    /* Light gray background */
+    border-radius: 50%;
+    /* Make it round */
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+    /* Center and add space below icon */
+}
 
+.icon-wrapper i {
+    font-size: 24px;
+    /* Icon size */
+    color: #28a745;
+    /* Green color (or your theme color) */
+}
+
+.card {
+    border: none;
+    /* Remove default border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Soft shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    /* Lift up on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.card-text {
+    color: #555;
+    font-size: 14px;
+}
+.detail {
+    margin-bottom: auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
